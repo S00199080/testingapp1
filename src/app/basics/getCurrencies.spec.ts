@@ -1,5 +1,6 @@
 import { getCurrencies } from "./getCurrencies";
 
+//S00199080 JonathanButler
 describe("getCurrencies", () => {
     it("should return a string array", () => {
         const result = getCurrencies();
